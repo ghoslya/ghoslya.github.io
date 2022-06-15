@@ -1644,7 +1644,7 @@ a:hover.back-to-top {
 		vertical-align: top;
 	}
 
-	.cards .card:nth-child(3n+2) {
+	.cards  .card:nth-child(3n+2) {
 		margin-right: 2rem;
 		margin-left: 2rem;
 	}
@@ -1709,11 +1709,35 @@ a:hover.back-to-top {
 
 
 	/* Contact */
-	.form-3 .text-container {
+	.form-3,.text-container {
 		margin-bottom: 0;
 	}
 	/* end of contact */
-
+	.partners,.bullet-new{
+		margin-left: 10px;
+		width: 4.125rem;
+		height: 4.125rem;
+		border-radius: 50%;
+		background-color: black;
+		color: black;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 0.875rem;
+		line-height: 2rem;
+		text-align: left;
+		
+	}
+	.no-italics{
+		font-style: normal;
+		font-size: large;
+		font-weight: 700;
+		color: black;
+		margin-left: 5px;
+	}
+	.link-style{
+		color: black;
+		margin-left: 40px;
+	}
 
 	/* Extra Pages */
 	.ex-header h1 {
@@ -1810,17 +1834,7 @@ a:hover.back-to-top {
 		margin-left: 2.875rem;
 	}
 	/* end of takeaways */
-
-
-	/* Testimonials */
-	.slider-2 .swiper-container {
-		width: 90%;
-	}
-
-	.slider-2 .text-wrapper {
-		margin-top: 0;
-	}
-	/* end of testimonials */
+	
 
 
 	/* Date */
